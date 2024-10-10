@@ -21,7 +21,7 @@ fn main() {
     string("rust is fun!".to_owned());
     string("nice weather".into());
     string(format!("Interpolation {}", "Station"));
-    string(&String::from("abc")[0..1]);
+    string(String::from("abc")[0..1].to_string());
     string_slice("  hello there ".trim());
     string("Happy Monday!".to_string().replace("Mon", "Tues"));
     string("mY sHiFt KeY iS sTiCkY".to_lowercase());
