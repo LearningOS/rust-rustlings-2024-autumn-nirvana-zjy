@@ -13,6 +13,6 @@ enum Message {
 fn main() {
     println!("{:?}", Message::Quit);
     println!("{:?}", Message::Echo);
-    println!("{:?}", Message::Move);
-    println!("{:?}", Message::ChangeColor);
+    println!("{:?}", Message::Move(0, 0));
+    println!("{:?}", Message::ChangeColor(0, 0, 0));
 }
