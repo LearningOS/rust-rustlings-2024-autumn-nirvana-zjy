@@ -2,8 +2,6 @@
 //
 // No hints this time! ;)
 
-// I AM DONE
-
 #[derive(Debug)]
 enum Message {
     Quit,

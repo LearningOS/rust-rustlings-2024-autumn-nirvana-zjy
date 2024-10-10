@@ -7,8 +7,6 @@
 //
 // No hints this time!
 
-// I AM DONE
-
 fn string_slice(arg: &str) {
     println!("{}", arg);
 }
